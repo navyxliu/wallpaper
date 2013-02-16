@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.app.Dialog;
 import android.app.WallpaperManager;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -194,7 +193,7 @@ public class NewWallPaperActivity extends Activity implements
 		for (Integer id : this.imgSourceIdlist) {
 			list.add(null);
 		}
-		
+
 		myAdapter = new MyPagerAdapter(this, list, this.imgSourceIdlist);
 		myPicPager.setAdapter(myAdapter);
 		myPicPager.setCurrentItem(0);
@@ -454,7 +453,8 @@ public class NewWallPaperActivity extends Activity implements
 														DialogInterface dialoginterface,
 														int i) {
 													finish();
-													Intent intent = new Intent(Intent.ACTION_MAIN);
+													Intent intent = new Intent(
+															Intent.ACTION_MAIN);
 													intent.addCategory(Intent.CATEGORY_HOME);
 													intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 													startActivity(intent);
