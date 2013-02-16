@@ -1,6 +1,6 @@
 package com.cq.wallpapernew.streetfighter;
 
-
+//addadd testtest
 import java.util.ArrayList;
 import android.os.Parcelable;
 import android.support.v4.view.PagerAdapter;
