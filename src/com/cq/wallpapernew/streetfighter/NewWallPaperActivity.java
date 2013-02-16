@@ -197,7 +197,7 @@ public class NewWallPaperActivity extends Activity implements
 		
 		myAdapter = new MyPagerAdapter(this, list, this.imgSourceIdlist);
 		myPicPager.setAdapter(myAdapter);
-		myPicPager.setCurrentItem(1);
+		myPicPager.setCurrentItem(0);
 	}
 
 	// 监听图片事件
@@ -400,8 +400,6 @@ public class NewWallPaperActivity extends Activity implements
 
 	// 退出对话框
 	private void outDialog() {
-		// 下载更多应用（设置为默认值）,评分(动态拼接域名）,退出， 取消
-		Dialog dialog = null;
 		Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("Exit");
 		builder.setSingleChoiceItems(R.array.exit, 0,
@@ -455,8 +453,11 @@ public class NewWallPaperActivity extends Activity implements
 												public void onClick(
 														DialogInterface dialoginterface,
 														int i) {
-													// 退出
-													System.exit(0);
+													finish();
+													Intent intent = new Intent(Intent.ACTION_MAIN);
+													intent.addCategory(Intent.CATEGORY_HOME);
+													intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+													startActivity(intent);
 												}
 											}).show();
 							break;

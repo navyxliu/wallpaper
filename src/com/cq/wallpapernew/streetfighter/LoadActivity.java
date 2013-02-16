@@ -12,12 +12,12 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.airpush.android.Airpush;
 import com.umeng.analytics.MobclickAgent;
 
 public class LoadActivity extends Activity {
-
 	// airpush
 	Airpush airpush;
 	// obtain more apps in google play.
@@ -74,6 +74,7 @@ public class LoadActivity extends Activity {
 
 		exitButton.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
+				Log.d("TAG", "exitButton");
 				// exit
 				System.exit(0);
 			}
