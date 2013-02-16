@@ -1,9 +1,8 @@
 package com.cq.wallpapernew.streetfighter;
 
 /*
- * ∆Ù∂Øª≠√Ê
+ * primary activity
  */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -21,8 +20,7 @@ public class LoadActivity extends Activity {
 
 	// airpush
 	Airpush airpush;
-
-	// get more µÿ÷∑
+	// obtain more apps in google play.
 	String recom_url = "market://search?q=com.cq.wallpapernew";
 
 	// leadbolt key
