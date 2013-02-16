@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- need set every time -->
+    <string name="app_name">StreetFighter WallpaperHD</string>
+
+    <!-- do not set -->
+    <string name="title_activity_wall_paper">StreetFighter Wallpapers HD</string>
+    <string name="title_activity_loadding">Loading</string>
+    <!-- menu tips -->
+    <string name="download_menu">Download</string>
+    <string name="setwallpaper_menu">SetWallPaper</string>
+    <string name="remove_ads_menu">Remove Ads</string>
+    <!-- hints -->
+    <string name="title_activity_load">Picture Loading</string>
+    <string name="click_ads_hint">Please help click ads,then it will disapper</string>
+    <string name="op_ok_hint">Success</string>
+    <string name="op_failed_hint">Fail</string>
+    <string name="downloading_hint">downloading</string>
+    <string name="download_ok_hint">DownLoad sucess</string>
+    <string name="setting_hint">set</string>
+    <string name="set_ok_hint">set ok</string>
+    <!-- 保存图像的目录名 -->
+    <string name="savePath">wallpapers</string>
+
+</resources>
