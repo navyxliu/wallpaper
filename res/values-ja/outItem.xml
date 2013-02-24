@@ -2,9 +2,9 @@
 <resources>
 
     <string-array name="exit">
-        <item>Rate this APP</item>
-        <item>Get more apps</item>
-        <item>Exit</item>
-        <item>Cancel</item>
+        <item>コメントする</item>
+        <item>アプリを探す</item>
+        <item>終了</item>
+        <item>もとり</item>
     </string-array>
 </resources>

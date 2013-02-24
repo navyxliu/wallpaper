@@ -19,6 +19,9 @@
     <string name="download_ok_hint">下載成功</string>
     <string name="setting_hint">設定中</string>
     <string name="set_ok_hint">設定成功</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_ask_rate">是否願意給本應用評級？</string>
+ 
     <!-- 保存图像的目录名 -->
     <string name="savePath">wallpapers</string>
 

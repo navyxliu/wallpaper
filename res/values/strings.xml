@@ -16,9 +16,11 @@
     <string name="op_ok_hint">Success</string>
     <string name="op_failed_hint">Fail</string>
     <string name="downloading_hint">downloading</string>
-    <string name="download_ok_hint">DownLoad sucess</string>
+    <string name="download_ok_hint">DownLoad success</string>
     <string name="setting_hint">set</string>
     <string name="set_ok_hint">set ok</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_ask_rate">thanks! Rate this APP?</string>
     <!-- 保存图像的目录名 -->
     <string name="savePath">wallpapers</string>
 

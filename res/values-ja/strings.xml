@@ -19,6 +19,9 @@
     <string name="download_ok_hint">ダウンロー完了</string>
     <string name="setting_hint">設定している</string>
     <string name="set_ok_hint">設定完了</string>
+    <string name="menu_exit">終了する</string>
+    <string name="menu_ask_rate">ご利用いただき、ありがとうございます.　コメントしていただきませんか</string>
+    
     <!-- 保存图像的目录名 -->
     <string name="savePath">wallpapers</string>
 
