@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- need set every time -->
+    <string name="app_name">StreetFighter WallpaperHD</string>
+
+    <!-- do not set -->
+    <string name="title_activity_wall_paper">StreetFighter Wallpapers HD</string>
+    <string name="title_activity_loadding">読み込みしている</string>
+    <!-- menu tips -->
+    <string name="download_menu">ダウンロード</string>
+    <string name="setwallpaper_menu">設定</string>
+    <string name="remove_ads_menu">CMが消えます</string>
+    <!-- hints -->
+    <string name="title_activity_load">画像の読み込み</string>
+    <string name="click_ads_hint">クリックすろと、CMが消えます</string>
+    <string name="op_ok_hint">成功する</string>
+    <string name="op_failed_hint">失敗する</string>
+    <string name="downloading_hint">ダウンロードしている</string>
+    <string name="download_ok_hint">ダウンロー完了</string>
+    <string name="setting_hint">設定している</string>
+    <string name="set_ok_hint">設定完了</string>
+    <!-- 保存图像的目录名 -->
+    <string name="savePath">wallpapers</string>
+
+</resources>
